@@ -23,13 +23,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|left"
-        android:text="TextView" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="90dp"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/p2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
-        android:text="TextView" />
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="90dp"
+        android:nextFocusRight="@id/p1"
+        android:text="J1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:nextFocusDown="@id/p1"
+        android:text="Enviar resultados!" />
 
 </FrameLayout>

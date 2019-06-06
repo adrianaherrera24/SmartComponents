@@ -12,9 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="#FF50F0F5"
         android:text="Iniciar Juego"
         android:textColor="@color/colorAccent"
         android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/design_default_color_primary"
+        android:drawableStart="@drawable/bluetooth"
+        android:text="Conectar con otros" />
 
 </FrameLayout>
