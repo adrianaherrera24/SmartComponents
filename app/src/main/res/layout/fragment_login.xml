@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +8,14 @@
     tools:context=".LoginFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="252dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="78dp"
+        tools:src="@tools:sample/avatars" />
+
     <Button
         android:id="@+id/inicio"
         android:layout_width="match_parent"
@@ -28,5 +37,14 @@
         android:background="@color/design_default_color_primary"
         android:drawableStart="@drawable/bluetooth"
         android:text="Conectar con otros" />
+
+    <Button
+        android:id="@+id/agregaJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="15dp"
+        android:background="#3F51B5"
+        android:text="Agregar jugador" />
 
 </FrameLayout>
